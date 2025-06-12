@@ -36,7 +36,7 @@ set /a xp=0
 set /a xp_needed=50
 
 rem Define companions
-set "companions=DrysOG Baked Brandon Spvcestep LeafChicken Slink Toady Crabman DarkSkitZo toqer KenshinGM CEnnis91 XoraLoyal alfalfa1 Paramount JohnnyTest CuddlyWolf Jgunishka Moosehead Shinfuji Agent21iXi Firo Suprafast Bampy RonyRollin"
+set "companions=DrysOG Baked Akihimura Brandon CatzBrownout Spvcestep LeafChicken Slink Toady Crabman DarkSkitZo toqer KenshinGM CEnnis91 XoraLoyal alfalfa1 Paramount JohnnyTest CuddlyWolf Jgunishka Moosehead Shinfuji Agent21iXi Firo Suprafast BadassBampy"
 
 rem Initialize companion stats
 for %%a in (!companions!) do (
