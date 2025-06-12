@@ -13,7 +13,7 @@ Welcome to my cool Norse RPG made with batch scripts! It’s got dice rolls, epi
 - Free to mod, share, or even sell (check `LICENSE.txt`).
 
 ## Downloads
-- Str: [MediaFire Link](https://www.mediafire.com/file/s9st1lnrxxdv1yx/OGENS_CL4X_NEXUS_RPG_v5_%2526_v6_Str.zip/file)
+- OGENS CLAX NEXUS RPG: [MediaFire Link](https://www.mediafire.com/file/s9st1lnrxxdv1yx/OGENS_CL4X_NEXUS_RPG_v5_%2526_v6_Str.zip/file)
 - Website: https://ogensvideogameresearch.weebly.com/batch-files.html
 
 ## License
