@@ -1,4 +1,4 @@
-# OGENS CLAX NEXUS - D2+D5
+# OGENS CLAX NEXUS - D2+D5/D2+D3
 
 **A Terminal-Based Adventure of Chance & Lore**
 
