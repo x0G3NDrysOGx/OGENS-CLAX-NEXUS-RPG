@@ -158,7 +158,9 @@ Game ends with a victory screen showing final stats (Score, Health, Artifacts, R
 
 ## Downloads
 
-[OGENS CLAX NEXUS RPG v5 & v6 str](https://www.mediafire.com/file/jkombdsq154eerl/OGENS_CL4X_NEXUS_RPG_v5_%2526_v6_Str_Finale.zip/file) [OGENS CLAX NEXUS RPG v5 str ASCII](https://www.mediafire.com/file/2quklbednv0rpjx/OGENS_CL4X_NEXUS_RPG_v5_Str_ASCII.zip/file) [DrysOGs Batch File Vault](https://ogensvideogameresearch.weebly.com/batch-files.html)
+- [OGENS CLAX NEXUS RPG v5 & v6 str](https://www.mediafire.com/file/jkombdsq154eerl/OGENS_CL4X_NEXUS_RPG_v5_%2526_v6_Str_Finale.zip/file)
+- [OGENS CLAX NEXUS RPG v5 str ASCII](https://www.mediafire.com/file/2quklbednv0rpjx/OGENS_CL4X_NEXUS_RPG_v5_Str_ASCII.zip/file)
+- [DrysOGs Batch File Vault](https://ogensvideogameresearch.weebly.com/batch-files.html)
 
 ## Installation
 
