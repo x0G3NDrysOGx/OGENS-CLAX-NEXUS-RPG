@@ -1,4 +1,4 @@
-# OGENS CLAX NEXUS - D2+D5/D2+D3 v5 & v6 str
+# OGENS CLAX NEXUS - D2+D5/D2+D3 v5 & v6 str ASCII
 
 **A Terminal-Based Adventure of Chance & Lore**
 
