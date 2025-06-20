@@ -27,7 +27,7 @@ Welcome to **OGENS CLAX NEXUS - D2+D5**, a minimalist yet rich command-line RPG 
 - **Artifacts**: 0
 - **Relics**: 0
 - **Items**: None initially
-- **Companions**: One selected randomly from a roster of 25
+- **Companions**: One selected randomly from a roster of 26
 
 Each companion has:
 - **Health**: 50–100
