@@ -158,16 +158,16 @@ Game ends with a victory screen showing final stats (Score, Health, Artifacts, R
 
 ## Downloads
 
-<a href="https://www.mediafire.com/file/jkombdsq154eerl/OGENS_CL4X_NEXUS_RPG_v5_%2526_v6_Str_Finale.zip/file" onclick="window.open(this.href, '_blank'); return false;">OGENS CLAX NEXUS RPG v5 & v6 str</a><br>
-<a href="https://www.mediafire.com/file/2quklbednv0rpjx/OGENS_CL4X_NEXUS_RPG_v5_Str_ASCII.zip/file" onclick="window.open(this.href, '_blank'); return false;">OGENS CLAX NEXUS RPG v5 str ASCII</a><br>
-<a href="https://ogensvideogameresearch.weebly.com/batch-files.html" onclick="window.open(this.href, '_blank'); return false;">DrysOGs Batch File Vault</a>
+[OGENS CLAX NEXUS RPG v5 & v6 str](https://www.mediafire.com/file/jkombdsq154eerl/OGENS_CL4X_NEXUS_RPG_v5_%2526_v6_Str_Finale.zip/file)
+[OGENS CLAX NEXUS RPG v5 str ASCII](https://www.mediafire.com/file/2quklbednv0rpjx/OGENS_CL4X_NEXUS_RPG_v5_Str_ASCII.zip/file)
+[DrysOGs Batch File Vault](https://ogensvideogameresearch.weebly.com/batch-files.html)
 
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/[YourUsername]/OGENS-CLAX-NEXUS-RPG.git`.
 2. Or download zips from MediaFire (see Downloads).
-3. Run `scripts/main.bat` in a Windows command prompt.
-4. Customize scripts or images in `/images` to shape your adventure.
+3. Run or/double click `OGENS CL4X NEXUS RPG.bat` to run the game.
+4. Customize scripts like Char list shape your adventure.
 
 ## Contributing
 
