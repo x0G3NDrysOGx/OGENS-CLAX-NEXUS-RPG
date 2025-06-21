@@ -27,7 +27,7 @@ Welcome to **OGENS CLAX NEXUS - D2+D5 & D2+D3**, a minimalist yet rich command-l
 - **Artifacts**: 0
 - **Relics**: 0
 - **Items**: None initially
-- **Companions**: One selected randomly from a roster of 26
+- **Companions**: One selected randomly from a roster of 27
 
 Each companion has:
 - **Health**: 50–100
