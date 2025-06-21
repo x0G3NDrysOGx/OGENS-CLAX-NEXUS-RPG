@@ -90,7 +90,7 @@ The following companions can join you in the ancient labyrinth:
 - alfalfa1
 - Paramount
 - JohnnyTest
-- CuddlyWolf
+- cuddlyWolf
 - Jgunishka
 - Moosehead
 - Shinfuji
