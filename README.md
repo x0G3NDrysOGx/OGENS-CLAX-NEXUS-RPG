@@ -14,7 +14,7 @@
 
 ## Overview
 
-Welcome to **OGENS CLAX NEXUS - D2+D5**, a minimalist yet rich command-line RPG set in a mysterious underground realm. Brave shifting paths, collect arcane artifacts and relics, and rise through the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique thanks to randomized characters, D2+D3 rolls (mapped to 1–6/1-10 outcomes), and branching events.
+Welcome to **OGENS CLAX NEXUS - D2+D5 & D2+D3**, a minimalist yet rich command-line RPG set in a mysterious underground realm. Brave shifting paths, collect arcane artifacts and relics, and rise through the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique thanks to randomized characters, D2+D3 rolls (mapped to 1–6/1-10 outcomes), and branching events.
 
 ---
 
