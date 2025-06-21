@@ -75,6 +75,7 @@ The following companions can join you in the ancient labyrinth:
 - Baked
 - Akihimura
 - Brandon
+- SS
 - CatzBrownout
 - Spvcestep
 - LeafChicken
