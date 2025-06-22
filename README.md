@@ -125,10 +125,11 @@ If a companion’s health reaches 0, they fall, and a new companion is randomly 
 
 Items are found through events or leveling up:
 
-- **Healing Potions**: Restores +25 player health (max 200 + level*10), +20 companion health (max 100). Found in **Hidden Stairs** (adjusted grid 2: "A blessed elixir lies in the rubble"), **Crystal Cavern** (adjusted grid 2: "A radiant potion and talisman shine in a crevice"), or via **level-up** (if potions < 3).
+- **Healing Potions**: Restores +25 player health (max 200 + level*10), +20 companion health (max 100). Found in **Left Tunnel** (adjusted grid 2: "A mystic vial gleams in the dust"), **Hidden Stairs** (adjusted grid 2: "A blessed elixir lies in the rubble"), **Crystal Cavern** (adjusted grid 2: "A radiant potion and talisman shine in a crevice"), or via **level-up** (if potions < 3).
 - **Score Charms**: Grants +20 score when used. Found in **Right Tunnel** (adjusted grid 2: "A faint talisman sparkles softly"), **Crystal Cavern** (adjusted grid 2: "A radiant potion and talisman shine in a crevice").
 - **Artifact Keys**: Grants +4 artifacts when used. Found in **Crystal Cavern** (adjusted grid 6: "A sacred key sparkles in the glow").
 - **Relics**: Doubles score for the next event; grants +5 score if no score gain. Found in **Right Tunnel** (adjusted grid 3: "An urn discloses a shimmering relic"), **Crystal Cavern** (adjusted grid 3: "A shimmering relic pulses with power").
+- **Artifacts**: Found in **Left Tunnel** (adjusted grid 5: "An enchanted stone pulses with energy", adjusted grid 6: "A shimmering idol glints in the shadows").
 
 Use items via the Items menu (Path 5).
 
