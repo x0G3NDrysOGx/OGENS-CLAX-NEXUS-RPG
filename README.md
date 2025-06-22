@@ -138,7 +138,7 @@ Use items via the Items menu (Path 5).
 
 Win by achieving:
 - **6,000+ Score**
-- **250+ Artifacts**
+- **300+ Artifacts**
 - **50+ Relics**
 
 Game ends with a victory screen showing final stats (Score, Health, Artifacts, Relics, Level, Date, Time).
