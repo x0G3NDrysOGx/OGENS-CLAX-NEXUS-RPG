@@ -126,7 +126,7 @@ If a companion’s health reaches 0, they fall, and a new companion is randomly 
 Items are found through events or leveling up:
 
 - **Healing Potions**: +25 player health (max 200+level*10), +20 companion health (max 100). Found in Hidden Stairs, Crystal Cavern, or via level-up.
-- **Score Charms**: +20 score. Found in Right Tunnel.
+- **Score Charms**: +20 score. Found in Right Tunnel, Crystal Cavern.
 - **Artifact Keys**: +4 artifacts. Found in Hidden Stairs, Crystal Cavern.
 - **Relics**: Doubles score for the next event; grants +5 score if no score gain. Found in Right Tunnel, Crystal Cavern.
 
