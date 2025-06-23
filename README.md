@@ -125,11 +125,19 @@ If a companion’s health reaches 0, they fall, and a new companion is randomly 
 
 Items are found through events or leveling up:
 
+D2+D3:
 - **Healing Potions**: Restores +25 player health (max 200 + level*10), +20 companion health (max 100). Found in **Left Tunnel** (adjusted grid 2: "A mystic vial gleams in the dust"), **Hidden Stairs** (adjusted grid 2: "A blessed elixir lies in the rubble"), **Crystal Cavern** (adjusted grid 2: "A radiant potion and talisman shine in a crevice"), or via **level-up** (if potions < 3).
 - **Score Charms**: Grants +20 score when used. Found in **Right Tunnel** (adjusted grid 2: "A faint talisman sparkles softly"), **Crystal Cavern** (adjusted grid 2: "A radiant potion and talisman shine in a crevice").
 - **Artifact Keys**: Grants +4 artifacts when used. Found in **Crystal Cavern** (adjusted grid 6: "A sacred key sparkles in the glow").
 - **Relics**: Doubles score for the next event; grants +5 score if no score gain. Found in **Right Tunnel** (adjusted grid 3: "An urn discloses a shimmering relic"), **Crystal Cavern** (adjusted grid 3: "A shimmering relic pulses with power").
 - **Artifacts**: Found in **Left Tunnel** (adjusted grid 5: "An enchanted stone pulses with energy", adjusted grid 6: "A shimmering idol glints in the shadows").
+
+D2+D5:
+- **Healing Potions**: Restores +25 player health (max 200 + level*10), +20 companion health (max 100). Found in **Hidden Stairs** (adjusted grid 5: "A blessed elixir lies in the rubble"), **Crystal Cavern** (adjusted grid 5: "A radiant potion shines in a crevice"), or via **level-up** (if potions < 3).
+- **Score Charms**: Grants +20 score when used. Found in **Left Tunnel** (adjusted grid 9: "A cryptic mural unveils its wisdom and a score charm"), **Crystal Cavern** (adjusted grid 9: "A crystal prism grants foresight and a score charm").
+- **Artifact Keys**: Grants +4 artifacts when used. Found in **Hidden Stairs** (adjusted grid 10: "A mystic key gleams in the dust"), **Crystal Cavern** (adjusted grid 10: "A sacred key sparkles in the glow").
+- **Relics**: Doubles score for the next event; grants +5 score if no score gain. Found in **Right Tunnel** (adjusted grid 1: "A radiant sigil flares with light", adjusted grid 3: "A holy amulet glows brightly"), **Crystal Cavern** (adjusted grid 1: "A luminous jewel dazzles the eye", adjusted grid 3: "A glowing sphere hums with magic").
+- **Artifacts**: Found in **Left Tunnel** (adjusted grid 1: "A shimmering idol glints in the shadows", adjusted grid 3: "An enchanted stone pulses with energy", adjusted grid 7: "Ancient roots mend your wounds and reveal an artifact"), **Right Tunnel** (adjusted grid 1: "A radiant sigil flares with light", adjusted grid 3: "A holy amulet glows brightly", adjusted grid 9: "Etched runes share their knowledge"), **Hidden Stairs** (adjusted grid 1: "A dawn gem radiates warmth", adjusted grid 3: "A sacred slab of Anubis is revealed", adjusted grid 7: "A hidden alcove offers refuge", adjusted grid 9: "Ancient etchings bestow insight"), **Crystal Cavern** (adjusted grid 1: "A luminous jewel dazzles the eye", adjusted grid 3: "A glowing sphere hums with magic", adjusted grid 7: "Crystal mist rejuvenates you and reveals an artifact", adjusted grid 9: "A crystal prism grants foresight and a score charm").
 
 Use items via the Items menu (Path 5).
 
