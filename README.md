@@ -1,4 +1,4 @@
-# OGENS CLAX NEXUS - D2+D5/D2+D3 v5 & v6 str ASCII
+# OGENS CLAX NEXUS - D2+D5/D2+D3 v6 str ASCII
 
 **A Terminal-Based Adventure of Chance & Lore**
 
@@ -6,7 +6,7 @@
 
 ---
 
-**Game Type**: Text-based RPG | Windows Command Line | RNG D6  
+**Game Type**: Text-based RPG | Windows Command Line | RNG D2+D5/D2+D3  
 **Author**: Developed by [Cody L Morgan]  
 **Version**: 6.0  
 
@@ -14,7 +14,7 @@
 
 ## Overview
 
-Welcome to **OGENS CLAX NEXUS - D2+D5 & D2+D3**, a minimalist yet rich command-line RPG set in a mysterious underground realm. Brave shifting paths, collect arcane artifacts and relics, and rise through the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique thanks to randomized characters, D2+D3 rolls (mapped to 1–6/1-10 outcomes), and branching events.
+Welcome to **OGENS CLAX NEXUS - D2+D5 & D2+D3**, a minimalist yet rich command-line RPG set in a mysterious underground realm. Brave shifting paths, collect arcane artifacts and relics, and rise through the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique thanks to randomized characters and branching events driven by dice rolls. In D2+D3, a two-sided die (1–2) and a three-sided die (1–3) are rolled, mapping to a 2x3 grid for outcomes 1–6. In D2+D5, a two-sided die (1–2) and a five-sided die (1–5) map to a 2x5 grid for outcomes 1–10. A companion’s luck adjusts the outcome, creating dynamic challenges and rewards.
 
 ---
 
