@@ -1,4 +1,4 @@
-# OGENS CLAX NEXUS - D2+D5/D2+D3 v6 str ASCII
+# OGENS CLAX NEXUS - D5+D5 v8 str ASCII
 
 **A Terminal-Based Adventure of Chance & Lore**
 
@@ -6,15 +6,15 @@
 
 ---
 
-**Game Type**: Text-based RPG | Windows Command Line | RNG D2+D5/D2+D3  
+**Game Type**: Text-based RPG | Windows Command Line | RNG D5+D5 
 **Author**: Developed by [Cody L Morgan]  
-**Version**: 7.0  
+**Version**: 8.0  
 
 ---
 
 ## Overview
 
-Welcome to **OGENS CLAX NEXUS - D2+D5 & D2+D3**, a minimalist yet rich command-line RPG set in a mysterious underground realm. Brave shifting paths, collect arcane artifacts and relics, and rise through the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique thanks to randomized characters and branching events driven by dice rolls. In D2+D3, a two-sided die (1–2) and a three-sided die (1–3) are rolled, mapping to a 2x3 grid for outcomes 1–6. In D2+D5, a two-sided die (1–2) and a five-sided die (1–5) map to a 2x5 grid for outcomes 1–10. A companion’s luck adjusts the outcome, creating dynamic challenges and rewards.
+Welcome to **OGENS CLAX NEXUS - D5+D5**, a minimalist yet rich command-line RPG set in a mysterious underground realm. Brave shifting paths, collect arcane artifacts and relics, and rise through the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique thanks to randomized characters and branching events driven by dice rolls. In D2+D3, a two-sided die (1–2) and a three-sided die (1–3) are rolled, mapping to a 2x3 grid for outcomes 1–6. In D2+D5, a two-sided die (1–2) and a five-sided die (1–5) map to a 2x5 grid for outcomes 1–10. A companion’s luck adjusts the outcome, creating dynamic challenges and rewards.
 
 ---
 
@@ -168,7 +168,8 @@ Game ends with a victory screen showing final stats (Score, Health, Artifacts, R
 
 ## Downloads
 
-- [OGENS CLAX NEXUS RPG v6 str ASCII](https://www.mediafire.com/file/ba1gd5ha1j1x5pc/OGENS_CL4X_NEXUS_RPG_v6_Str_ASCII.zip/file)
+- [OGENS CLAX NEXUS RPG v8 str ASCII](https://www.mediafire.com/file/5p9d98eg8r80s4h/OGENS_CL4X_NEXUS_RPG_D5%252BD5_v8_str.zip/file)
+- [OGENS NEON NEXUS RPG v8 str ASCII](https://www.mediafire.com/file/817o0dwfwd5edbs/OGENS_NEON_NEXUS_RPG_D5%252BD5_v8_str.zip/file)
 - [DrysOGs Batch File Vault](https://ogensvideogameresearch.weebly.com/batch-files.html)
 
 ## Installation
