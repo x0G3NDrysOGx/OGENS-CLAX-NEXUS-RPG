@@ -6,7 +6,7 @@
 
 ---
 
-**Game Type**: Text-based RPG | Windows Command Line | RNG D5+D5
+**Game Type**: Text-based RPG | Windows Command Line | RNG D5+D5 
 **Author**: Developed by [Cody L Morgan]  
 **Version**: 8.0  
 
