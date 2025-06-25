@@ -158,7 +158,7 @@ Game ends with a victory screen showing final stats (Score, Health, Artifacts, R
 
 - **Platform**: Windows CMD
 - **Language**: Batch Script (.BAT)
-- **RNG Method**: D2+D5/D2+D3 rolls (D2: 1–2, D3/D5: 1–3/1-5) mapped to 1–6 with Luck Modifier
+- **RNG Method**: D5+D5 rolls (D2: 1–5, D5: 1-5) mapped to 1–6 with Luck Modifier
 - **Color Output**: Yes (yellow on black via color command)
 - **Save/Load**: Text file (SaveGame.txt) with backup (SaveGame.bak)
 - **Logging**: GameLog.txt records quit, loss, and win events with timestamps
