@@ -15,7 +15,7 @@
 
 ## Overview
 
-Welcome to **OGENS CLAX NEXUS - D5+D5**, a minimalist yet rich command-line RPG set in a mysterious underground realm. Brave shifting paths, collect arcane artifacts and relics, and rise through the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique thanks to randomized characters and branching events driven by dice rolls. In D2+D3, a two-sided die (1–2) and a three-sided die (1–3) are rolled, mapping to a 2x3 grid for outcomes 1–6. In D2+D5, a two-sided die (1–2) and a five-sided die (1–5) map to a 2x5 grid for outcomes 1–10. A companion’s luck adjusts the outcome, creating dynamic challenges and rewards.
+Welcome to **OGENS CLAX NEXUS - D5+D5**, a minimalist yet rich command-line RPG set in a mysterious underground realm. Brave shifting paths, collect arcane artifacts and relics, and rise through the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique thanks to randomized characters and branching events driven by dice rolls. In D5+D5, a Five-sided die (1–5) and a Five-sided die (1–5) are rolled, mapping to a 5x5 grid for outcomes 1–25. A companion’s luck adjusts the outcome, creating dynamic challenges and rewards.
 
 ---
 
