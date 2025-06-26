@@ -29,7 +29,7 @@ Welcome to **OGENS CLAX NEXUS - D5+D5**, a minimalist yet rich command-line RPG 
 - **Relics**: 0
 - **Items**: None initially
 - **Companions**: One selected randomly from a roster of 27
-- PLAYER STRENGTH: 5–15
+- PLAYER STRENGTH: 5–15, 5 is Nightmare mode
 
 Each companion has:
 - **Health**: 50–100
