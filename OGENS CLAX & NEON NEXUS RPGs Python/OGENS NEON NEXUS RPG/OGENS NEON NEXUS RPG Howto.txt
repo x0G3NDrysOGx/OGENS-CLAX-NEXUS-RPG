@@ -1,0 +1,76 @@
+# OGENS NEON NEXUS - D5+D5
+
+## Overview
+OGens NEON NEXUS - D5+D5 is a text-based cyberpunk adventure game written in Batch for Windows. Dive into the Neon Underworld, a gritty digital realm where you navigate treacherous paths, hack systems, and survive with the help of companions. Your goal is to amass a score of 6000, collect 300 Data Cores, and secure 50 Quantum Mods to conquer the underworld.
+
+## How to Play
+1. **Run the Game**:
+   - Download the `NEON_NEXUS.bat` file.
+   - Double-click the file to start the game in the Windows Command Prompt.
+
+2. **Game Objective**:
+   - Survive the Neon Underworld by choosing paths and managing resources.
+   - Win by achieving:
+     - Score: 6000
+     - Data Cores: 300
+     - Quantum Mods: 50
+   - Avoid losing all health, or it's game over!
+
+3. **Game Mechanics**:
+   - **Stats**:
+     - **Health**: Starts at 100, maxes at 200 (increases with levels).
+     - **Score**: Tracks your progress toward 6000.
+     - **Data Cores, Quantum Mods**: Collect to win.
+     - **Level/XP**: Gain XP to level up, increasing max health and gaining Nano-Medpacks.
+     - **Strength**: Affects health loss in challenges (randomized 5-14 at start).
+   - **Companions**: Randomly assigned allies with Health, Strength, and Luck stats that influence outcomes.
+   - **Dice System**: Events are determined by rolling two D5 dice (D5+D5), adjusted by your companion's Luck, mapping to a 5x5 grid of outcomes.
+
+4. **Menu Options**:
+   - **Paths (1-4)**:
+     - **Path 1 - Data Vaults**: Fortified server hub with high-risk, high-reward challenges.
+     - **Path 2 - Neon Slums**: Gang-run black market with unpredictable encounters.
+     - **Path 3 - Corporate Spire**: Megacorp skyscraper with corporate traps.
+     - **Path 4 - Darknet Grid**: Virtual reality network with hacking challenges.
+   - **Path 5 - Inventory**: Use items like Nano-Medpacks (+25 health), Data Shards (+20 score), Crypto Keys (+4 Data Cores), or Quantum Mods (double score for the next event).
+   - **Path 6 - Contact List**: View companion stats.
+   - **Path 7 - Save Game**: Save progress to `SaveGame.txt`.
+   - **Path 8 - Load Game**: Load progress from `SaveGame.txt`.
+   - **Path 9 - Quit**: Exit and log your final stats.
+
+5. **Gameplay Flow**:
+   - Select a path (1-9) from the main menu.
+   - For paths 1-4, a random companion joins you, and a D5+D5 roll determines the event outcome (e.g., Stealth Success, Combat Trap).
+   - Outcomes may affect health, score, items, or XP, modified by your and your companion’s Strength and Luck.
+   - Use inventory items strategically to boost health, score, or progress.
+   - Save frequently to preserve progress, as death ends the game.
+
+6. **Winning the Game**:
+   - Reach 6000 Score, 300 Data Cores, and 50 Quantum Mods to win.
+   - Upon winning, your final stats and timestamp are logged to `GameLog.txt`.
+
+7. **Losing the Game**:
+   - If your health drops to 0 or below, you flatline, ending the game with your final stats logged.
+
+## System Requirements
+- Windows operating system (XP or later).
+- Command Prompt (included with Windows).
+- No additional software required.
+
+## Files
+- `NEON_NEXUS.bat`: The main game file.
+- `SaveGame.txt`: Created when saving progress.
+- `SaveGame.bak`: Backup of the save file (created during save).
+- `GameLog.txt`: Logs game outcomes (win/loss/quit) with timestamps.
+
+## Notes
+- The game uses random number generation for companion stats, event outcomes, and challenges, ensuring varied playthroughs.
+- Save files are stored in the same directory as the game. Ensure you have write permissions in the folder.
+- Quantum Mods are powerful but limited—use them wisely to double score gains.
+- Companions can die if their health reaches 0, leaving you to face challenges alone until a new one is assigned.
+
+## Credits
+- Created by [Cody L Morgan].
+- Inspired by cyberpunk themes and classic text-based adventure games.
+
+Enjoy hacking the Neon Underworld!
