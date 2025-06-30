@@ -169,9 +169,7 @@ Game ends with a victory screen showing final stats (Score, Health, Artifacts, R
 ---
 
 ## Downloads
-- [OGENS CLAX NEXUS RPG v8 str ASCII (bat)](https://www.mediafire.com/file/5p9d98eg8r80s4h/OGENS_CL4X_NEXUS_RPG_D5%252BD5_v8_str.zip/file)
-- [OGENS NEON NEXUS RPG v8 str ASCII (bat)](https://www.mediafire.com/file/817o0dwfwd5edbs/OGENS_NEON_NEXUS_RPG_D5%252BD5_v8_str.zip/file)
-- [OGENS CLAX & NEON NEXUS RPG m/w Python](https://www.mediafire.com/file/i10hni39p3c96rl/OG3NS_CL4X_%2526_N30N_NEXUS_RPG%252C_Python.zip/file)
+- [OGENS CLAX & NEON NEXUS RPG v9 m/w Python](https://www.mediafire.com/file/49c1nbeed1s8dty/OG3NS_CL4X_%2526_N3ON_N3XUS_RPG_v9.zip/file)
 - [OGENS Spin off Games m/w Python](https://www.mediafire.com/file/0atfln0isot2wmk/OGENS_Spin_Off_Games%252C_Python.zip/file)
 - [DrysOGs Batch File Vault](https://ogensvideogameresearch.weebly.com/batch-files.html)
 
