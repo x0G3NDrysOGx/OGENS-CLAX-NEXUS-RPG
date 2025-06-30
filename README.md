@@ -1,4 +1,4 @@
-# OGENS CLAX & NEON NEXUS - D5+D5 v8 str ASCII
+# OGENS CLAX & NEON NEXUS - D5+D5 v9 m/w Python
 
 **A Terminal-Based Adventure of Chance & Lore**
 
