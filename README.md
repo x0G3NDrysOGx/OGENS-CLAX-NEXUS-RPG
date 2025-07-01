@@ -159,7 +159,7 @@ Game ends with a victory screen showing final stats (Score, Health, Artifacts, R
 ## Technical Info
 
 - **Platform**: Windows CMD
-- **Language**: Batch Script (.BAT)
+- **Language**: Python Script (.EXE)
 - **RNG Method**: D5+D5 rolls (D2: 1–5, D5: 1-5) mapped to 1–6 with Luck Modifier
 - **Color Output**: Yes (yellow on black via color command)
 - **Save/Load**: Text file (SaveGame.txt) with backup (SaveGame.bak)
