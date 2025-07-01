@@ -182,7 +182,7 @@ Game ends with a victory screen showing final stats (Score, Health, Artifacts, R
 
 ## Contributing
 
-Got ideas? Submit bug reports, feature suggestions, or pull requests via GitHub Issues. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Got ideas? Submit bug reports, feature suggestions, or pull requests via GitHub Issues.
 
 Beta Testers: LeafChicken
 
