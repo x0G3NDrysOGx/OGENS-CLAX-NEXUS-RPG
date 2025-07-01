@@ -184,6 +184,8 @@ Game ends with a victory screen showing final stats (Score, Health, Artifacts, R
 
 Got ideas? Submit bug reports, feature suggestions, or pull requests via GitHub Issues. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
+Beta Testers: LeafChicken
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE.txt), allowing free use, modification, and distribution, including commercial purposes, as long as the license is included.
