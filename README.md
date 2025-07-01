@@ -188,7 +188,7 @@ Special thanks to our dedicated beta tester: LeafChicken, whose feedback helped 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.txt), allowing free use, modification, and distribution, including commercial purposes, as long as the license is included.
+This project is licensed under the [MIT License](https://github.com/x0G3NDrysOGx/OGENS-CLAX-NEXUS-RPG/blob/main/LICENSE), allowing free use, modification, and distribution, including commercial purposes, as long as the license is included.
 
 ## Warning
 
