@@ -182,9 +182,10 @@ Game ends with a victory screen showing final stats (Score, Health, Artifacts, R
 
 ## Contributing
 
+Contributing
 Got ideas? Submit bug reports, feature suggestions, or pull requests via GitHub Issues.
 
-Beta Testers: LeafChicken
+Special thanks to our dedicated beta tester: LeafChicken, whose feedback helped shape the Nexus!
 
 ## License
 
