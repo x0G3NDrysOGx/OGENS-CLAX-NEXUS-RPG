@@ -177,7 +177,7 @@ Game ends with a victory screen showing final stats (Score, Health, Runes, Arcan
 
 1. Clone the repository: `git clone https://github.com/x0G3NDrysOGx/OGENS-CLAX-NEXUS-RPG.git`.
 2. Or download zips from MediaFire (see Downloads).
-3. Double click `OGENS CL4X NEXUS RPG.exe` to run the game.
+3. Double click `OGENS FANTASY NEXUS RPG.exe` to run the game.
 
 ## Contributing
 
