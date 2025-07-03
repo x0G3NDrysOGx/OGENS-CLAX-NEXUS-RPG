@@ -1,4 +1,4 @@
-# OGENS CLAX & NEON NEXUS - D5+D5 v9 m/w Python
+# OGENS FANTASY NEXUS RPG - D5+D10
 
 **A Terminal-Based Adventure of Chance & Lore**
 
@@ -6,48 +6,46 @@
 
 ---
 
-**Game Type**: Text-based RPG | Windows Command Line | RNG D5+D5
- 
-**Author**: Developed by [Cody L Morgan]  
-**Version**: 9.0  
-
----
-
 ## Overview
 
-Welcome to **OGENS CLAX & NEON NEXUS - D5+D5**, a minimalist yet rich command-line RPG set in a mysterious underground realm. Brave shifting paths, collect arcane artifacts and relics, and rise through the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique thanks to randomized characters and branching events driven by dice rolls. In D5+D5, a Five-sided die (1–5) and a Five-sided die (1–5) are rolled, mapping to a 5x5 grid for outcomes 1–25 for each path. A companion’s luck adjusts the outcome, creating dynamic challenges and rewards.
+**Game Type**: Text-based RPG | Windows Command Line | RNG D5+D10  
+**Author**: Developed by Cody L Morgan  
+**Version**: 9.0  
+
+Welcome to **OGENS FANTASY NEXUS RPG - D5+D10**, a captivating command-line RPG set in a mystic realm of ancient magic and perilous quests. Navigate treacherous paths, collect sacred runes and arcane crystals, and conquer the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique, driven by randomized characters and branching events determined by dice rolls. In D5+D10, a five-sided die (1–5) and a ten-sided die (0–9) are rolled, mapping to outcomes 1–50 for each path. A companion’s luck adjusts the outcome, creating dynamic challenges and rewards.
 
 ---
 
 ## Starting Stats
 
-- **Health**: 100 (Max: 200)
-- **Score**: 0
-- **Level**: 1
-- **XP to Level 2**: 50
-- **Artifacts**: 0
-- **Relics**: 0
-- **Items**: None initially
-- **Companions**: One selected randomly from a roster of 27
+- HEALTH:        100 (Max: 200)
+- SCORE:         0
+- LEVEL:         1
+- XP to Level 2: 50
+- RUNES:         0
+- ARCANE CRYSTALS: 0
+- ITEMS:         None initially
+- COMPANIONS:    One selected randomly from a roster of 27
 - PLAYER STRENGTH: 5–15, 5 is Nightmare mode
 
+
 Each companion has:
-- **Health**: 50–100
-- **Strength**: 5–15
-- **Luck**: 1–10
+- **HEALTH**: 50–100
+- **STRENGTH**: 5–15
+- **LUCK**: 1–10
+- **CLASS**: Randomly assigned (e.g., Barbarian, Cleric, Mage, Sorcerer, Archer, Thief, Paladin, Warrior, Necromancer)
 
 ---
 
 ## Path Choices
 
 On each turn, choose from nine options:
-
-- **Left Tunnel**: Gain Score, Artifacts, XP, Player Health, Companion Health
-- **Right Tunnel**: Gain Score, Artifacts, Score Charm, Relics, XP, Player Health, Companion Health
-- **Hidden Stairs**: Gain Score, Artifacts, Healing Potion, Artifact Key, XP, Player Health, Companion Health
-- **Crystal Cavern**: Gain Score, Artifacts, Healing Potion, Artifact Key, Relics, XP, Player Health, Companion Health
-- **Items**: Use Healing Potion (+25 player health, +20 companion health), Score Charm (+20 score), Artifact Key (+4 artifacts), Relic (double score or +5 score for next event)
-- **Character List**: View companion stats (Health, Strength, Luck)
+- **Ancient Crypts**: Gain Score, Runes, XP, Player Health, Companion Health
+- **Enchanted Forest**: Gain Score, Runes, Magic Scroll, Arcane Crystals, XP, Player Health, Companion Health
+- **Mystic Ruins**: Gain Score, Runes, Healing Potion, Mystic Key, XP, Player Health, Companion Health
+- **Shadow Realm**: Gain Score, Runes, Healing Potion, Mystic Key, Arcane Crystals, XP, Player Health, Companion Health
+- **Items**: Use Healing Potion (+25 player health, +20 companion health), Magic Scroll (+20 score), Mystic Key (+4 runes), Arcane Crystal (double score or +5 score for next event)
+- **Character List**: View companion stats (Health, Strength, Luck, Class)
 - **Save Game**: Save progress to a file
 - **Load Game**: Load previously saved progress
 - **Quit**: Exit with final stats displayed
@@ -56,23 +54,25 @@ On each turn, choose from nine options:
 
 ## Dice & Modifiers
 
-Events are based on a D2+D3 roll mapped to 1–6 outcomes with a Luck Modifier:
-- **D2**: 1–2, **D3**: 1–3
-- **Outcome** = (D2-1)*3 + D3
-- **LuckMod** = Companion Luck - 5
-- **AdjustedRoll** = Outcome + LuckMod (clamped to 1–6)
+Events are based on a D5+D10 roll mapped to 1–50 outcomes with a Luck Modifier:
+- D5: 1–5, D10: 0–9
+- Outcome = (D5-1)*10 + D10
+- LuckMod = Companion Luck - 5
+- AdjustedRoll = Outcome + LuckMod (clamped to 1–50)
 
-**Outcomes** depend on the Adjusted Roll:
-- **Low rolls (2, 3, 4)**: Damage (-10 to -17+Strength player health, -10 to -17+Strength companion health), minimal XP (0–1)
-- **Mid rolls (5)**: Items (Potions in Paths 3 and 4, Charms in Path 2, Relics in Paths 2 and 4), moderate XP (5)
-- **High rolls (1, 6)**: Artifacts, score boosts (6–8+level), health gains (+2 player, +2 companion), high XP (5–10), Relics (Paths 2 and 4), Keys (Paths 3 and 4)
+
+
+
+Outcomes depend on the Adjusted Roll:
+- **Low rolls (e.g., 2, 7, 10, 12, 15)**: Damage (-5 to -7 player health, -5 to -7 companion health, adjusted by strength), minimal XP (1)
+- **Mid rolls (e.g., 11, 13, 19, 22, 23)**: Items (Potions in Paths 3 and 4, Scrolls in Path 2, Crystals in Paths 2 and 4, Keys in Paths 3 and 4), moderate XP (6–8)
+- **High rolls (e.g., 1, 6, 16, 21, 24)**: Runes, score boosts (4–8+level), health gains (+4 player, +4 companion), high XP (8–10), Crystals (Paths 2 and 4), Keys (Paths 3 and 4)
 
 ---
 
 ## Companion System
 
-The following companions can join you in the ancient labyrinth:
-
+The following companions can join you in the mystic realm:
 - DrysOG
 - Baked
 - Akihimura
@@ -101,45 +101,45 @@ The following companions can join you in the ancient labyrinth:
 - Suprafast
 - BadassBampy
 
-**Companions influence**:
+Companions influence:
 - **Luck**: Adjusts dice rolls via LuckMod
 - **Strength**: Reduces companion damage taken
 - **Health**: Determines companion survival
+- **Class**: Provides unique bonuses:
+  - **Barbarian**: +5 damage boost, +2 damage reduction
+  - **Cleric**: +10 healing boost
+  - **Mage**: +5 magic boost
+  - **Sorcerer**: +5 magic boost, -2 damage taken
+  - **Archer**: +5 ranged boost
+  - **Thief**: +2 luck, +5 score
+  - **Paladin**: +5 defense, +5 healing
+  - **Warrior**: +5 damage, +2 defense
+  - **Necromancer**: +5 necrotic boost, -2 damage taken
 
-If a companion’s health reaches 0, they fall, and a new companion is randomly selected on the next turn.
+If a companion’s health reaches 0, they fall but can be revived by positive outcomes (e.g., gaining items or health).
 
 ---
 
 ## Leveling & XP
 
 **XP** is earned each turn:
-- Successful events (e.g., artifacts, relics, potions, keys, health gains): 5–10 XP
-- Failed events (e.g., damage taken): 0–1 XP
+- Successful events (e.g., runes, crystals, potions, keys, health gains): 6–10 XP
+- Failed events (e.g., damage taken): 1 XP
 
 **Leveling up**:
-- Increases max health (+10), health (+3), and score gains (via level-based bonuses)
-- Grants a Healing Potion if current count is <3
+- Increases max health (+10), health (+5), and score gains (via level-based bonuses)
 - XP requirement: Level * 50 (e.g., 50 for Level 2, 100 for Level 3)
 
 ---
 
 ## Items
 
-Items are found through events or leveling up:
-
-D2+D3:
-- **Healing Potions**: Restores +25 player health (max 200 + level*10), +20 companion health (max 100). Found in **Left Tunnel** (adjusted grid 2: "A mystic vial gleams in the dust"), **Hidden Stairs** (adjusted grid 2: "A blessed elixir lies in the rubble"), **Crystal Cavern** (adjusted grid 2: "A radiant potion and talisman shine in a crevice"), or via **level-up** (if potions < 3).
-- **Score Charms**: Grants +20 score when used. Found in **Right Tunnel** (adjusted grid 2: "A faint talisman sparkles softly"), **Crystal Cavern** (adjusted grid 2: "A radiant potion and talisman shine in a crevice").
-- **Artifact Keys**: Grants +4 artifacts when used. Found in **Crystal Cavern** (adjusted grid 6: "A sacred key sparkles in the glow").
-- **Relics**: Doubles score for the next event; grants +5 score if no score gain. Found in **Right Tunnel** (adjusted grid 3: "An urn discloses a shimmering relic"), **Crystal Cavern** (adjusted grid 3: "A shimmering relic pulses with power").
-- **Artifacts**: Found in **Left Tunnel** (adjusted grid 5: "An enchanted stone pulses with energy", adjusted grid 6: "A shimmering idol glints in the shadows").
-
-D2+D5:
-- **Healing Potions**: Restores +25 player health (max 200 + level*10), +20 companion health (max 100). Found in **Hidden Stairs** (adjusted grid 5: "A blessed elixir lies in the rubble"), **Crystal Cavern** (adjusted grid 5: "A radiant potion shines in a crevice"), or via **level-up** (if potions < 3).
-- **Score Charms**: Grants +20 score when used. Found in **Left Tunnel** (adjusted grid 9: "A cryptic mural unveils its wisdom and a score charm"), **Crystal Cavern** (adjusted grid 9: "A crystal prism grants foresight and a score charm").
-- **Artifact Keys**: Grants +4 artifacts when used. Found in **Hidden Stairs** (adjusted grid 10: "A mystic key gleams in the dust"), **Crystal Cavern** (adjusted grid 10: "A sacred key sparkles in the glow").
-- **Relics**: Doubles score for the next event; grants +5 score if no score gain. Found in **Right Tunnel** (adjusted grid 1: "A radiant sigil flares with light", adjusted grid 3: "A holy amulet glows brightly"), **Crystal Cavern** (adjusted grid 1: "A luminous jewel dazzles the eye", adjusted grid 3: "A glowing sphere hums with magic").
-- **Artifacts**: Found in **Left Tunnel** (adjusted grid 1: "A shimmering idol glints in the shadows", adjusted grid 3: "An enchanted stone pulses with energy", adjusted grid 7: "Ancient roots mend your wounds and reveal an artifact"), **Right Tunnel** (adjusted grid 1: "A radiant sigil flares with light", adjusted grid 3: "A holy amulet glows brightly", adjusted grid 9: "Etched runes share their knowledge"), **Hidden Stairs** (adjusted grid 1: "A dawn gem radiates warmth", adjusted grid 3: "A sacred slab of Anubis is revealed", adjusted grid 7: "A hidden alcove offers refuge", adjusted grid 9: "Ancient etchings bestow insight"), **Crystal Cavern** (adjusted grid 1: "A luminous jewel dazzles the eye", adjusted grid 3: "A glowing sphere hums with magic", adjusted grid 7: "Crystal mist rejuvenates you and reveals an artifact", adjusted grid 9: "A crystal prism grants foresight and a score charm").
+Items are found through events:
+- **Healing Potions**: Restores +25 player health (max 200 + level*10), +20 companion health (max 100). Found in **Ancient Crypts** (e.g., adjusted roll 4: "You evade undead patrols, finding a Healing Potion in a dusty alcove"), **Mystic Ruins** (e.g., adjusted roll 19: "You harness ruin magic, gaining a Healing Potion"), **Shadow Realm** (e.g., adjusted roll 27: "You calm a shadow spirit, gaining a Healing Potion").
+- **Magic Scrolls**: Grants +20 score when used. Found in **Enchanted Forest** (e.g., adjusted roll 13: "You trade with elven scouts, gaining a Magic Scroll"), **Shadow Realm** (e.g., adjusted roll 23: "You earn a shadow’s blessing, gaining a Magic Scroll").
+- **Mystic Keys**: Grants +4 runes when used. Found in **Mystic Ruins** (e.g., adjusted roll 11: "You persuade a ruin sage, earning a Mystic Key"), **Shadow Realm** (e.g., adjusted roll 22: "You defeat a shadow beast, claiming a Mystic Key").
+- **Arcane Crystals**: Doubles score for the next event; grants +5 score if no score gain. Found in **Enchanted Forest** (e.g., adjusted roll 6: "You slay a forest troll, seizing an Arcane Crystal"), **Shadow Realm** (e.g., adjusted roll 30: "You vanquish a shadow demon, claiming an Arcane Crystal").
+- **Runes**: Found in **Ancient Crypts** (e.g., adjusted roll 1: "You slip past skeletal sentinels, uncovering a glowing Sacred Rune"), **Enchanted Forest** (e.g., adjusted roll 1: "You sneak past glowing sprites, discovering a Sacred Rune"), **Mystic Ruins** (e.g., adjusted roll 16: "You dispel a ruin ward, revealing a Sacred Rune"), **Shadow Realm** (e.g., adjusted roll 24: "You unlock a dark rune, finding a Sacred Rune").
 
 Use items via the Items menu (Path 5).
 
@@ -148,11 +148,11 @@ Use items via the Items menu (Path 5).
 ## Win Condition
 
 Win by achieving:
-- **6,000+ Score**
-- **300+ Artifacts**
-- **50+ Relics**
+- 6,000+ Score
+- 300+ Runes
+- 50+ Arcane Crystals
 
-Game ends with a victory screen showing final stats (Score, Health, Artifacts, Relics, Level, Date, Time).
+Game ends with a victory screen showing final stats (Score, Health, Runes, Arcane Crystals, Level, Date, Time).
 
 ---
 
@@ -169,7 +169,7 @@ Game ends with a victory screen showing final stats (Score, Health, Artifacts, R
 ---
 
 ## Downloads
-- [OGENS CLAX & NEON NEXUS RPG v9 m/w Python](https://www.mediafire.com/file/49c1nbeed1s8dty/OG3NS_CL4X_%2526_N3ON_N3XUS_RPG_v9.zip/file)
+- [OGENS FANTASY NEXUS RPG v10 m/w Python](https://www.mediafire.com/file/xt1wa5xotmlyhee/OGENS_FANTASY_NEXUS_RPG_v10.zip/file)
 - [OGENS Spin off Games m/w Python](https://www.mediafire.com/file/0atfln0isot2wmk/OGENS_Spin_Off_Games%252C_Python.zip/file)
 - [DrysOGs Batch File Vault](https://ogensvideogameresearch.weebly.com/batch-files.html)
 
