@@ -10,7 +10,7 @@
 
 **Game Type**: Text-based RPG | Windows Command Line | RNG D5+D10  
 **Author**: Developed by Cody L Morgan  
-**Version**: 9.0  
+**Version**: 10.0  
 
 Welcome to **OGENS FANTASY NEXUS RPG - D5+D10**, a captivating command-line RPG set in a mystic realm of ancient magic and perilous quests. Navigate treacherous paths, collect sacred runes and arcane crystals, and conquer the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique, driven by randomized characters and branching events determined by dice rolls. In D5+D10, a five-sided die (1–5) and a ten-sided die (0–9) are rolled, mapping to outcomes 1–50 for each path. A companion’s luck adjusts the outcome, creating dynamic challenges and rewards.
 
