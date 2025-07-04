@@ -160,7 +160,7 @@ Game ends with a victory screen showing final stats (Score, Health, Runes, Arcan
 
 - **Platform**: Windows CMD
 - **Language**: Python Script (.EXE)
-- **RNG Method**: D5+D10 rolls (D2: 1–5, D10: 1-10) mapped to 1–6 with Luck Modifier
+- **RNG Method**: D5+D10 rolls (D2: 1–5, D10: 1-10) mapped to 1–50 with Luck Modifier
 - **Color Output**: Yes (yellow on black via color command)
 - **Save/Load**: Text file (SaveGame.txt) with backup (SaveGame.bak)
 - **Logging**: GameLog.txt records quit, loss, and win events with timestamps
