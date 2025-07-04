@@ -55,7 +55,7 @@ On each turn, choose from nine options:
 ## Dice & Modifiers
 
 Events are based on a D5+D10 roll mapped to 1–50 outcomes with a Luck Modifier:
-- D5: 1–5, D10: 0–9
+- D5: 1–5, D10: 1–10
 - Outcome = (D5-1)*10 + D10
 - LuckMod = Companion Luck - 5
 - AdjustedRoll = Outcome + LuckMod (clamped to 1–50)
