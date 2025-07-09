@@ -12,7 +12,7 @@
 **Author**: Developed by Cody L Morgan  
 **Version**: 10.0  
 
-Welcome to **OGENS FANTASY NEXUS RPG - D5+D10**, a captivating command-line RPG set in a mystic realm of ancient magic and perilous quests. Navigate treacherous paths, collect sacred runes and arcane crystals, and conquer the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique, driven by randomized characters and branching events determined by dice rolls. In D5+D10, a five-sided die (1–5) and a ten-sided die (0–9) are rolled, mapping to outcomes 1–50 for each path. A companion’s luck adjusts the outcome, creating dynamic challenges and rewards.
+Welcome to **OGENS FANTASY NEXUS RPG - D5+D10**, a captivating command-line RPG set in a mystic realm of ancient magic and perilous quests. Navigate treacherous paths, collect sacred runes and arcane crystals, and conquer the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique, driven by randomized characters and branching events determined by dice rolls. In D5+D10, a five-sided die (1–5) and a ten-sided die (0–9) are rolled, mapping to outcomes 1–50 for each path.
 
 ---
 
@@ -28,11 +28,9 @@ Welcome to **OGENS FANTASY NEXUS RPG - D5+D10**, a captivating command-line RPG 
 - COMPANIONS:    One selected randomly from a roster of 27
 - PLAYER STRENGTH: 5–15, 5 is Nightmare mode
 
-
 Each companion has:
 - **HEALTH**: 50–100
 - **STRENGTH**: 5–15
-- **LUCK**: 1–10
 - **CLASS**: Randomly assigned (e.g., Barbarian, Cleric, Mage, Sorcerer, Archer, Thief, Paladin, Warrior, Necromancer)
 
 ---
@@ -45,7 +43,7 @@ On each turn, choose from nine options:
 - **Mystic Ruins**: Gain Score, Runes, Healing Potion, Mystic Key, XP, Player Health, Companion Health
 - **Shadow Realm**: Gain Score, Runes, Healing Potion, Mystic Key, Arcane Crystals, XP, Player Health, Companion Health
 - **Items**: Use Healing Potion (+25 player health, +20 companion health), Magic Scroll (+20 score), Mystic Key (+4 runes), Arcane Crystal (double score or +5 score for next event)
-- **Character List**: View companion stats (Health, Strength, Luck, Class)
+- **Character List**: View companion stats (Health, Strength, Class)
 - **Save Game**: Save progress to a file
 - **Load Game**: Load previously saved progress
 - **Quit**: Exit with final stats displayed
@@ -54,16 +52,11 @@ On each turn, choose from nine options:
 
 ## Dice & Modifiers
 
-Events are based on a D5+D10 roll mapped to 1–50 outcomes with a Luck Modifier:
+Events are based on a D5+D10 roll mapped to 1–50 outcomes:
 - D5: 1–5, D10: 1–10
 - Outcome = (D5-1)*10 + D10
-- LuckMod = Companion Luck - 5
-- AdjustedRoll = Outcome + LuckMod (clamped to 1–50)
 
-
-
-
-Outcomes depend on the Adjusted Roll:
+Outcomes depend on the Roll:
 - **Low rolls (e.g., 2, 7, 10, 12, 15)**: Damage (-5 to -7 player health, -5 to -7 companion health, adjusted by strength), minimal XP (1)
 - **Mid rolls (e.g., 11, 13, 19, 22, 23)**: Items (Potions in Paths 3 and 4, Scrolls in Path 2, Crystals in Paths 2 and 4, Keys in Paths 3 and 4), moderate XP (6–8)
 - **High rolls (e.g., 1, 6, 16, 21, 24)**: Runes, score boosts (4–8+level), health gains (+4 player, +4 companion), high XP (8–10), Crystals (Paths 2 and 4), Keys (Paths 3 and 4)
@@ -102,7 +95,6 @@ The following companions can join you in the mystic realm:
 - BadassBampy
 
 Companions influence:
-- **Luck**: Adjusts dice rolls via LuckMod
 - **Strength**: Reduces companion damage taken
 - **Health**: Determines companion survival
 - **Class**: Provides unique bonuses:
@@ -111,7 +103,7 @@ Companions influence:
   - **Mage**: +5 magic boost
   - **Sorcerer**: +5 magic boost, -2 damage taken
   - **Archer**: +5 ranged boost
-  - **Thief**: +2 luck, +5 score
+  - **Thief**: +5 score
   - **Paladin**: +5 defense, +5 healing
   - **Warrior**: +5 damage, +2 defense
   - **Necromancer**: +5 necrotic boost, -2 damage taken
@@ -135,11 +127,11 @@ If a companion’s health reaches 0, they fall but can be revived by positive ou
 ## Items
 
 Items are found through events:
-- **Healing Potions**: Restores +25 player health (max 200 + level*10), +20 companion health (max 100). Found in **Ancient Crypts** (e.g., adjusted roll 4: "You evade undead patrols, finding a Healing Potion in a dusty alcove"), **Mystic Ruins** (e.g., adjusted roll 19: "You harness ruin magic, gaining a Healing Potion"), **Shadow Realm** (e.g., adjusted roll 27: "You calm a shadow spirit, gaining a Healing Potion").
-- **Magic Scrolls**: Grants +20 score when used. Found in **Enchanted Forest** (e.g., adjusted roll 13: "You trade with elven scouts, gaining a Magic Scroll"), **Shadow Realm** (e.g., adjusted roll 23: "You earn a shadow’s blessing, gaining a Magic Scroll").
-- **Mystic Keys**: Grants +4 runes when used. Found in **Mystic Ruins** (e.g., adjusted roll 11: "You persuade a ruin sage, earning a Mystic Key"), **Shadow Realm** (e.g., adjusted roll 22: "You defeat a shadow beast, claiming a Mystic Key").
-- **Arcane Crystals**: Doubles score for the next event; grants +5 score if no score gain. Found in **Enchanted Forest** (e.g., adjusted roll 6: "You slay a forest troll, seizing an Arcane Crystal"), **Shadow Realm** (e.g., adjusted roll 30: "You vanquish a shadow demon, claiming an Arcane Crystal").
-- **Runes**: Found in **Ancient Crypts** (e.g., adjusted roll 1: "You slip past skeletal sentinels, uncovering a glowing Sacred Rune"), **Enchanted Forest** (e.g., adjusted roll 1: "You sneak past glowing sprites, discovering a Sacred Rune"), **Mystic Ruins** (e.g., adjusted roll 16: "You dispel a ruin ward, revealing a Sacred Rune"), **Shadow Realm** (e.g., adjusted roll 24: "You unlock a dark rune, finding a Sacred Rune").
+- **Healing Potions**: Restores +25 player health (max 200 + level*10), +20 companion health (max 100). Found in **Ancient Crypts** (e.g., roll 4: "You evade undead patrols, finding a Healing Potion in a dusty alcove"), **Mystic Ruins** (e.g., roll 19: "You harness ruin magic, gaining a Healing Potion"), **Shadow Realm** (e.g., roll 27: "You calm a shadow spirit, gaining a Healing Potion").
+- **Magic Scrolls**: Grants +20 score when used. Found in **Enchanted Forest** (e.g., roll 13: "You trade with elven scouts, gaining a Magic Scroll"), **Shadow Realm** (e.g., roll 23: "You earn a shadow’s blessing, gaining a Magic Scroll").
+- **Mystic Keys**: Grants +4 runes when used. Found in **Mystic Ruins** (e.g., roll 11: "You persuade a ruin sage, earning a Mystic Key"), **Shadow Realm** (e.g., roll 22: "You defeat a shadow beast, claiming a Mystic Key").
+- **Arcane Crystals**: Doubles score for the next event; grants +5 score if no score gain. Found in **Enchanted Forest** (e.g., roll 6: "You slay a forest troll, seizing an Arcane Crystal"), **Shadow Realm** (e.g., roll 30: "You vanquish a shadow demon, claiming an Arcane Crystal").
+- **Runes**: Found in **Ancient Crypts** (e.g., roll 1: "You slip past skeletal sentinels, uncovering a glowing Sacred Rune"), **Enchanted Forest** (e.g., roll 1: "You sneak past glowing sprites, discovering a Sacred Rune"), **Mystic Ruins** (e.g., roll 16: "You dispel a ruin ward, revealing a Sacred Rune"), **Shadow Realm** (e.g., roll 24: "You unlock a dark rune, finding a Sacred Rune").
 
 Use items via the Items menu (Path 5).
 
@@ -160,7 +152,7 @@ Game ends with a victory screen showing final stats (Score, Health, Runes, Arcan
 
 - **Platform**: Windows CMD
 - **Language**: Python Script (.EXE)
-- **RNG Method**: D5+D10 rolls (D2: 1–5, D10: 1-10) mapped to 1–50 with Luck Modifier
+- **RNG Method**: D5+D10 rolls (D5: 1–5, D10: 1–10) mapped to 1–50
 - **Color Output**: Yes (yellow on black via color command)
 - **Save/Load**: Text file (SaveGame.txt) with backup (SaveGame.bak)
 - **Logging**: GameLog.txt records quit, loss, and win events with timestamps
@@ -182,10 +174,9 @@ Game ends with a victory screen showing final stats (Score, Health, Runes, Arcan
 
 ## Contributing
 
-Contributing
 Got ideas? Submit bug reports, feature suggestions, or pull requests via GitHub Issues.
 
-Special thanks to our dedicated beta tester: LeafChicken, whose feedback helped shape the Nexus!
+Special thanks to our dedicated beta tester: **LeafChicken**, whose feedback helped shape the Nexus!
 
 ## License
 
