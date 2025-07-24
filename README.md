@@ -12,7 +12,7 @@
 - **Author**: Developed by Cody L Morgan  
 - **Version**: 11.0 & 12.0
 
-Welcome to **OGENS CRYPTO SURGE & RUNE PULSE NEXUS RPGs - D5+D10 & D10+D10**, a captivating command-line RPG set in a mystic realm of ancient magic and perilous quests. Navigate treacherous paths, collect sacred runes and arcane crystals, and conquer the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique, driven by randomized characters and branching events determined by dice rolls. In D5+D10, a five-sided die (1–5) and a ten-sided die (1–10) are rolled, mapping to outcomes 1–50 for each path.
+Welcome to **OGENS CRYPTO SURGE & RUNE PULSE NEXUS RPGs - D5+D10 & D10+D10**, a captivating command-line RPG set in a mystic realm of ancient magic and perilous quests. Navigate treacherous paths, collect sacred runes and arcane crystals, and conquer the Nexus by surviving traps, recruiting companions, and leveling up. Each playthrough is unique, driven by randomized characters and branching events determined by dice rolls. In D5+D10, a five-sided die (1–5) and a ten-sided die (1–10) are rolled, mapping to outcomes 1–50 for each path & In D10+D10, 2 Ten-sided die (1-10) are rolled, mapping to outcomes 1-100 for each path.
 
 ---
 
