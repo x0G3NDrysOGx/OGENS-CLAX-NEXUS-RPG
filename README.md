@@ -8,7 +8,7 @@
 
 ## Overview
 
-**Game Type**: Text-based RPG | Windows Command Line | RNG D5+D10  
+**Game Type**: Text-based RPG | Windows Command Line | RNG D5+D10 - D10+D10 
 **Author**: Developed by Cody L Morgan  
 **Version**: 10.0 & 11.0
 
