@@ -1,4 +1,4 @@
-# OGENS RUNE PULSE & CRYPTO SURGE NEXUS RPG - D5+D10 - D10+D10
+# OGENS RUNE PULSE & CRYPTO SURGE NEXUS RPG - D5+D10 & D10+D10
 
 **A Terminal-Based Adventure of Chance & Lore**
 
