@@ -1,4 +1,4 @@
-# OGENS FANTASY & CYBERPUNK NEXUS RPG - D5+D10 - D10+D10
+# OGENS Crypto Surge & Rune Pulse NEXUS RPG - D5+D10 - D10+D10
 
 **A Terminal-Based Adventure of Chance & Lore**
 
