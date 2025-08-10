@@ -164,6 +164,7 @@ Game ends with a victory screen showing final stats (Score, Health, Runes, Arcan
 
 - [OGENS CRYPTO SURGE & RUNE PULSE NEXUS RPGs m/w Python](https://www.mediafire.com/file/uro1o02ai6qox6y/OGENS_FANTASY_%2526_CYBERPUNK_NEXUS_RPGs_-_Rune_Pulse_%2526_Crypto_Surge.zip/file)
 - [OGENS Spin off Games m/w Python](https://www.mediafire.com/file/0atfln0isot2wmk/OGENS_Spin_Off_Games%252C_Python.zip/file)
+- [OGens CL4X Tkinter Slot Machine](https://www.mediafire.com/file/fwicamr0rezbs55/OGens_CL4X_Tkinter_Slot_Machine_5x5.zip/file)
 - [DrysOGs Batch File Vault](https://ogensvideogameresearch.weebly.com/batch-files.html)
 
 ## Installation
